@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0167F0B195295E90064E902 /* BTAAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0167F08195295E90064E902 /* BTAAnnotation.m */; };
+		B0167F0C195295E90064E902 /* BTAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0167F0A195295E90064E902 /* BTAMapViewController.m */; };
+		B0167F0F19533D3A0064E902 /* BTAData.m in Sources */ = {isa = PBXBuildFile; fileRef = B0167F0E19533D3A0064E902 /* BTAData.m */; };
+		B02760EA19508FAA005292A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02760E919508FAA005292A2 /* Foundation.framework */; };
+		B02760EC19508FAA005292A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02760EB19508FAA005292A2 /* CoreGraphics.framework */; };
+		B02760EE19508FAA005292A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02760ED19508FAA005292A2 /* UIKit.framework */; };
+		B02760F419508FAA005292A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B02760F219508FAA005292A2 /* InfoPlist.strings */; };
+		B02760F619508FAA005292A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02760F519508FAA005292A2 /* main.m */; };
+		B02760FA19508FAA005292A2 /* BTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02760F919508FAA005292A2 /* BTAAppDelegate.m */; };
+		B02760FC19508FAA005292A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02760FB19508FAA005292A2 /* Images.xcassets */; };
+		B027610319508FAA005292A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B027610219508FAA005292A2 /* XCTest.framework */; };
+		B027610419508FAA005292A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02760E919508FAA005292A2 /* Foundation.framework */; };
+		B027610519508FAA005292A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02760ED19508FAA005292A2 /* UIKit.framework */; };
+		B027610D19508FAA005292A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B027610B19508FAA005292A2 /* InfoPlist.strings */; };
+		B027610F19508FAB005292A2 /* BellyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B027610E19508FAB005292A2 /* BellyTestTests.m */; };
+		B027611A19508FD1005292A2 /* BTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B027611919508FD1005292A2 /* BTATableViewController.m */; };
+		B027611D19509007005292A2 /* BTATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B027611C19509007005292A2 /* BTATableViewCell.m */; };
+		B027612019509162005292A2 /* BTACustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = B027611F19509162005292A2 /* BTACustomNavController.m */; };
+		B02761231950C669005292A2 /* BTAFourSquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B02761221950C669005292A2 /* BTAFourSquareRequest.m */; };
+		B027612B19512C71005292A2 /* BTAArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B027612A19512C71005292A2 /* BTAArrowView.m */; };
+		B027612D19514783005292A2 /* JonFox.png in Resources */ = {isa = PBXBuildFile; fileRef = B027612C19514783005292A2 /* JonFox.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B027610619508FAA005292A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02760DE19508FAA005292A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02760E519508FAA005292A2;
+			remoteInfo = BellyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0167F07195295E90064E902 /* BTAAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAAnnotation.h; sourceTree = "<group>"; };
+		B0167F08195295E90064E902 /* BTAAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAAnnotation.m; sourceTree = "<group>"; };
+		B0167F09195295E90064E902 /* BTAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAMapViewController.h; sourceTree = "<group>"; };
+		B0167F0A195295E90064E902 /* BTAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAMapViewController.m; sourceTree = "<group>"; };
+		B0167F0D19533D3A0064E902 /* BTAData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAData.h; sourceTree = "<group>"; };
+		B0167F0E19533D3A0064E902 /* BTAData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAData.m; sourceTree = "<group>"; };
+		B02760E619508FAA005292A2 /* BellyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02760E919508FAA005292A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B02760EB19508FAA005292A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B02760ED19508FAA005292A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B02760F119508FAA005292A2 /* BellyTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BellyTest-Info.plist"; sourceTree = "<group>"; };
+		B02760F319508FAA005292A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B02760F519508FAA005292A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B02760F719508FAA005292A2 /* BellyTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BellyTest-Prefix.pch"; sourceTree = "<group>"; };
+		B02760F819508FAA005292A2 /* BTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAAppDelegate.h; sourceTree = "<group>"; };
+		B02760F919508FAA005292A2 /* BTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAAppDelegate.m; sourceTree = "<group>"; };
+		B02760FB19508FAA005292A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B027610119508FAA005292A2 /* BellyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B027610219508FAA005292A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B027610A19508FAA005292A2 /* BellyTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BellyTestTests-Info.plist"; sourceTree = "<group>"; };
+		B027610C19508FAA005292A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B027610E19508FAB005292A2 /* BellyTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BellyTestTests.m; sourceTree = "<group>"; };
+		B027611819508FD1005292A2 /* BTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTATableViewController.h; sourceTree = "<group>"; };
+		B027611919508FD1005292A2 /* BTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTATableViewController.m; sourceTree = "<group>"; };
+		B027611B19509007005292A2 /* BTATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTATableViewCell.h; sourceTree = "<group>"; };
+		B027611C19509007005292A2 /* BTATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTATableViewCell.m; sourceTree = "<group>"; };
+		B027611E19509162005292A2 /* BTACustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTACustomNavController.h; sourceTree = "<group>"; };
+		B027611F19509162005292A2 /* BTACustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTACustomNavController.m; sourceTree = "<group>"; };
+		B02761211950C669005292A2 /* BTAFourSquareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAFourSquareRequest.h; sourceTree = "<group>"; };
+		B02761221950C669005292A2 /* BTAFourSquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAFourSquareRequest.m; sourceTree = "<group>"; };
+		B027612919512C71005292A2 /* BTAArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAArrowView.h; sourceTree = "<group>"; };
+		B027612A19512C71005292A2 /* BTAArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAArrowView.m; sourceTree = "<group>"; };
+		B027612C19514783005292A2 /* JonFox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JonFox.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02760E319508FAA005292A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02760EC19508FAA005292A2 /* CoreGraphics.framework in Frameworks */,
+				B02760EE19508FAA005292A2 /* UIKit.framework in Frameworks */,
+				B02760EA19508FAA005292A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02760FE19508FAA005292A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027610319508FAA005292A2 /* XCTest.framework in Frameworks */,
+				B027610519508FAA005292A2 /* UIKit.framework in Frameworks */,
+				B027610419508FAA005292A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02760DD19508FAA005292A2 = {
+			isa = PBXGroup;
+			children = (
+				B0167F0D19533D3A0064E902 /* BTAData.h */,
+				B0167F0E19533D3A0064E902 /* BTAData.m */,
+				B0167F07195295E90064E902 /* BTAAnnotation.h */,
+				B0167F08195295E90064E902 /* BTAAnnotation.m */,
+				B0167F09195295E90064E902 /* BTAMapViewController.h */,
+				B0167F0A195295E90064E902 /* BTAMapViewController.m */,
+				B027612919512C71005292A2 /* BTAArrowView.h */,
+				B027612A19512C71005292A2 /* BTAArrowView.m */,
+				B02761211950C669005292A2 /* BTAFourSquareRequest.h */,
+				B02761221950C669005292A2 /* BTAFourSquareRequest.m */,
+				B027611E19509162005292A2 /* BTACustomNavController.h */,
+				B027611F19509162005292A2 /* BTACustomNavController.m */,
+				B027611819508FD1005292A2 /* BTATableViewController.h */,
+				B027611919508FD1005292A2 /* BTATableViewController.m */,
+				B027611B19509007005292A2 /* BTATableViewCell.h */,
+				B027611C19509007005292A2 /* BTATableViewCell.m */,
+				B027612C19514783005292A2 /* JonFox.png */,
+				B02760EF19508FAA005292A2 /* BellyTest */,
+				B027610819508FAA005292A2 /* BellyTestTests */,
+				B02760E819508FAA005292A2 /* Frameworks */,
+				B02760E719508FAA005292A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B02760E719508FAA005292A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02760E619508FAA005292A2 /* BellyTest.app */,
+				B027610119508FAA005292A2 /* BellyTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02760E819508FAA005292A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02760E919508FAA005292A2 /* Foundation.framework */,
+				B02760EB19508FAA005292A2 /* CoreGraphics.framework */,
+				B02760ED19508FAA005292A2 /* UIKit.framework */,
+				B027610219508FAA005292A2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02760EF19508FAA005292A2 /* BellyTest */ = {
+			isa = PBXGroup;
+			children = (
+				B02760F819508FAA005292A2 /* BTAAppDelegate.h */,
+				B02760F919508FAA005292A2 /* BTAAppDelegate.m */,
+				B02760FB19508FAA005292A2 /* Images.xcassets */,
+				B02760F019508FAA005292A2 /* Supporting Files */,
+			);
+			path = BellyTest;
+			sourceTree = "<group>";
+		};
+		B02760F019508FAA005292A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02760F119508FAA005292A2 /* BellyTest-Info.plist */,
+				B02760F219508FAA005292A2 /* InfoPlist.strings */,
+				B02760F519508FAA005292A2 /* main.m */,
+				B02760F719508FAA005292A2 /* BellyTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B027610819508FAA005292A2 /* BellyTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B027610E19508FAB005292A2 /* BellyTestTests.m */,
+				B027610919508FAA005292A2 /* Supporting Files */,
+			);
+			path = BellyTestTests;
+			sourceTree = "<group>";
+		};
+		B027610919508FAA005292A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B027610A19508FAA005292A2 /* BellyTestTests-Info.plist */,
+				B027610B19508FAA005292A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02760E519508FAA005292A2 /* BellyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B027611219508FAB005292A2 /* Build configuration list for PBXNativeTarget "BellyTest" */;
+			buildPhases = (
+				B02760E219508FAA005292A2 /* Sources */,
+				B02760E319508FAA005292A2 /* Frameworks */,
+				B02760E419508FAA005292A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BellyTest;
+			productName = BellyTest;
+			productReference = B02760E619508FAA005292A2 /* BellyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B027610019508FAA005292A2 /* BellyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B027611519508FAB005292A2 /* Build configuration list for PBXNativeTarget "BellyTestTests" */;
+			buildPhases = (
+				B02760FD19508FAA005292A2 /* Sources */,
+				B02760FE19508FAA005292A2 /* Frameworks */,
+				B02760FF19508FAA005292A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B027610719508FAA005292A2 /* PBXTargetDependency */,
+			);
+			name = BellyTestTests;
+			productName = BellyTestTests;
+			productReference = B027610119508FAA005292A2 /* BellyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02760DE19508FAA005292A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jon Fox";
+				TargetAttributes = {
+					B02760E519508FAA005292A2 = {
+						DevelopmentTeam = Y99DUZCLEB;
+					};
+					B027610019508FAA005292A2 = {
+						TestTargetID = B02760E519508FAA005292A2;
+					};
+				};
+			};
+			buildConfigurationList = B02760E119508FAA005292A2 /* Build configuration list for PBXProject "BellyTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B02760DD19508FAA005292A2;
+			productRefGroup = B02760E719508FAA005292A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02760E519508FAA005292A2 /* BellyTest */,
+				B027610019508FAA005292A2 /* BellyTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02760E419508FAA005292A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027612D19514783005292A2 /* JonFox.png in Resources */,
+				B02760F419508FAA005292A2 /* InfoPlist.strings in Resources */,
+				B02760FC19508FAA005292A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02760FF19508FAA005292A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027610D19508FAA005292A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02760E219508FAA005292A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02761231950C669005292A2 /* BTAFourSquareRequest.m in Sources */,
+				B027611A19508FD1005292A2 /* BTATableViewController.m in Sources */,
+				B027612019509162005292A2 /* BTACustomNavController.m in Sources */,
+				B0167F0B195295E90064E902 /* BTAAnnotation.m in Sources */,
+				B02760FA19508FAA005292A2 /* BTAAppDelegate.m in Sources */,
+				B0167F0C195295E90064E902 /* BTAMapViewController.m in Sources */,
+				B027612B19512C71005292A2 /* BTAArrowView.m in Sources */,
+				B02760F619508FAA005292A2 /* main.m in Sources */,
+				B027611D19509007005292A2 /* BTATableViewCell.m in Sources */,
+				B0167F0F19533D3A0064E902 /* BTAData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02760FD19508FAA005292A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B027610F19508FAB005292A2 /* BellyTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B027610719508FAA005292A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02760E519508FAA005292A2 /* BellyTest */;
+			targetProxy = B027610619508FAA005292A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B02760F219508FAA005292A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02760F319508FAA005292A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B027610B19508FAA005292A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B027610C19508FAA005292A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B027611019508FAB005292A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B027611119508FAB005292A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B027611319508FAB005292A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BellyTest/BellyTest-Prefix.pch";
+				INFOPLIST_FILE = "BellyTest/BellyTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B027611419508FAB005292A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BellyTest/BellyTest-Prefix.pch";
+				INFOPLIST_FILE = "BellyTest/BellyTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B027611619508FAB005292A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BellyTest.app/BellyTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BellyTest/BellyTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BellyTestTests/BellyTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B027611719508FAB005292A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BellyTest.app/BellyTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BellyTest/BellyTest-Prefix.pch";
+				INFOPLIST_FILE = "BellyTestTests/BellyTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02760E119508FAA005292A2 /* Build configuration list for PBXProject "BellyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B027611019508FAB005292A2 /* Debug */,
+				B027611119508FAB005292A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B027611219508FAB005292A2 /* Build configuration list for PBXNativeTarget "BellyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B027611319508FAB005292A2 /* Debug */,
+				B027611419508FAB005292A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B027611519508FAB005292A2 /* Build configuration list for PBXNativeTarget "BellyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B027611619508FAB005292A2 /* Debug */,
+				B027611719508FAB005292A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B02760DE19508FAA005292A2 /* Project object */;
+}
