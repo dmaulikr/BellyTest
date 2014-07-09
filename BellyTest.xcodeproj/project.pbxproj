@@ -27,7 +27,6 @@
 		B027612019509162005292A2 /* BTACustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = B027611F19509162005292A2 /* BTACustomNavController.m */; };
 		B02761231950C669005292A2 /* BTAFourSquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B02761221950C669005292A2 /* BTAFourSquareRequest.m */; };
 		B027612B19512C71005292A2 /* BTAArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B027612A19512C71005292A2 /* BTAArrowView.m */; };
-		B027612D19514783005292A2 /* JonFox.png in Resources */ = {isa = PBXBuildFile; fileRef = B027612C19514783005292A2 /* JonFox.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +72,6 @@
 		B02761221950C669005292A2 /* BTAFourSquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAFourSquareRequest.m; sourceTree = "<group>"; };
 		B027612919512C71005292A2 /* BTAArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAArrowView.h; sourceTree = "<group>"; };
 		B027612A19512C71005292A2 /* BTAArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAArrowView.m; sourceTree = "<group>"; };
-		B027612C19514783005292A2 /* JonFox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JonFox.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +117,6 @@
 				B027611919508FD1005292A2 /* BTATableViewController.m */,
 				B027611B19509007005292A2 /* BTATableViewCell.h */,
 				B027611C19509007005292A2 /* BTATableViewCell.m */,
-				B027612C19514783005292A2 /* JonFox.png */,
 				B02760EF19508FAA005292A2 /* BellyTest */,
 				B027610819508FAA005292A2 /* BellyTestTests */,
 				B02760E819508FAA005292A2 /* Frameworks */,
@@ -266,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B027612D19514783005292A2 /* JonFox.png in Resources */,
 				B02760F419508FAA005292A2 /* InfoPlist.strings in Resources */,
 				B02760FC19508FAA005292A2 /* Images.xcassets in Resources */,
 			);

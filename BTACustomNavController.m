@@ -14,6 +14,8 @@
 
 @implementation BTACustomNavController
 
+// Custom blue navbar with white text
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

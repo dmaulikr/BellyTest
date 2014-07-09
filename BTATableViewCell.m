@@ -20,6 +20,7 @@
     UILabel * businessStatus;
 }
 
+// Customize the cells
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self)
@@ -61,11 +62,12 @@
     return self;
 }
 
-
+// Load data into custom cells
 -(void)setIndex:(NSDictionary * )index
 {
     _index = index;
     
+    // show store icon
     NSString * iconName = [NSString stringWithFormat:@"%@88.png",index[@"icon"]];
     
     NSURL * imageURL = [NSURL URLWithString:iconName];
@@ -76,15 +78,19 @@
 
     businessImage.image = image;
     
+    // show store name
     businessName.text = index[@"name"];
 
+    // Convert meters to miles and show distance
     int meters = [index[@"distance"]intValue];
     float miles = meters * 0.00062137;
     NSString * distance = [NSString stringWithFormat:@"%.02f miles away", miles];
     businessDistance.text = distance;
     
+    // show store category
     businessCategory.text = index[@"category"];
     
+    // show store open/closed status
     NSString * status = [NSString stringWithFormat:@"%@", index[@"status"]];
                          
     if ([status isEqual: @"1"]){

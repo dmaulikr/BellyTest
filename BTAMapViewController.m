@@ -45,6 +45,7 @@
 
 - (void)viewDidLoad
 {
+    // load map view
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     [super viewDidLoad];
     fsMap = [[MKMapView alloc]initWithFrame:self.view.frame];
@@ -59,6 +60,7 @@
 {
     [lmanager stopUpdatingLocation];
     
+    // get current location from singleton
     if (locations == nil) {
         
         for (NSDictionary * location in [BTAData mainData].listItems) {
@@ -68,7 +70,7 @@
         currentLocation = [locations firstObject];
     }
 
-
+    // place current location annotation
     BTAAnnotation * annotation = [[BTAAnnotation alloc]initWithCoordinate:currentLocation.coordinate];
 
     annotation.title = @"YOU ARE HERE";
@@ -83,6 +85,7 @@
 
 -(void)createMapAnnotationsWithVenues:(NSMutableArray *)venues andLocation:(CLLocationCoordinate2D)coordinate
 {
+    // Get location of selected venue and place annotation on map from singleton
     double minLat = coordinate.latitude,
     minLong = coordinate.longitude,
     maxLat = coordinate.latitude,
@@ -134,6 +137,7 @@
     [fsMap setRegion:region animated:YES];
 }
 
+// customize annotations
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
 {
     

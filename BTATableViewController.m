@@ -82,11 +82,13 @@
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     [lmanager stopUpdatingLocation];
-
+    
     self.venueProfiles = [@[]mutableCopy];
     
+    // Get current location
     currentLocation = [locations firstObject];
     
+    // Get venues
     NSArray * venues = [BTAFourSquareRequest getVenuesWithLat:currentLocation.coordinate.latitude andLong:currentLocation.coordinate.longitude];
     
     for (NSDictionary * venue in venues) {
@@ -115,6 +117,7 @@
             }];
         }
     
+    // get info from singleton if info is not available, else display error alert.
     if ([self.venueProfiles count] == 0)
     {
         [[BTAData mainData] loadListItems];
@@ -126,7 +129,8 @@
         [BTAData mainData].listItems = self.venueProfiles;
         [[BTAData mainData]saveData];
     }
-        
+    
+    // Sort the information by distance. Nearest to furthest.
     NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"distance" ascending:YES];
     [self.venueProfiles sortUsingDescriptors:@[sort]];
     
