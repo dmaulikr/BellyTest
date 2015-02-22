@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F60B9499-38A9-4E05-86F4-CC9BB0A5C020</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BellyTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10CDE2310E97C560967DC4CABFA3F58D548FE7ED</key>
+		<string>https://github.com/FoxJon/BellyTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BellyTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10CDE2310E97C560967DC4CABFA3F58D548FE7ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/FoxJon/BellyTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10CDE2310E97C560967DC4CABFA3F58D548FE7ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10CDE2310E97C560967DC4CABFA3F58D548FE7ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BellyTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
